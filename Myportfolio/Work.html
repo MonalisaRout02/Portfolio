@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monalisa Rout</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body id="workbody">
+    <div id="navbar">
+        <a href="C:\Users\Monalisa\Documents\projects\Myportfolio\index.html">About</a> 
+        <a href="Work.html">Projects</a>
+        <a href="css/portfolio.pdf">Resume</a>
+        </div>
+         
+       <div class="intro">
+        <h1>Projects</h1>
+        <p>Here are some of my recent projects and a brief information about them.</p>
+       </div> 
+
+
+    <div class="Res common">
+        <div class="ResImg proimg">
+            <img src="images/img1.png" alt="img1">
+            <img src="images/img2.png" alt="img2">
+            <img src="images/img3.png" alt="img3">
+        </div>
+        <div class="ResInfo">
+         <h2>Restaurant Management System</h2>
+         <p>Developing a relational database management project using
+        SQL, HTML, CSS, PHP, and Javascript. The front end is simple
+        and user-friendly, the website can be used to order food from
+        the menu and also can be used to make table reservations. The
+        database holds the user login details, order details and related
+        information, it is also updated for each transaction.</p>
+        </div>
+    </div>
+    
+    <hr>
+     
+    <div class="game common">
+        <div class="gameImg proimg">
+            <img src="images/game1.png" alt="img1">
+            <img src="images/game2.png" alt="img2">
+        </div>
+        <div class="gameInfo">
+            <h2>SwiftFlight</h2>
+            <p>Built a game called "SwiftFlight" which is an addictive and fun
+               2D game inspired by the popular Flappy Bird. The game
+               features a delightful bird that players control by tapping the
+               spacebar to make it fly through obstacles and collect food
+               particles. It is built using OpenGL along with Freeglut Library.</p>
+       
+        </div>
+
+    
+    
+    </div> 
+
+
+    <hr>
+
+    <div class="KickDrum common">
+        <div class="siteImg proimg">
+            <img src="images/kickdrum.png" alt="img1">
+            
+        </div>
+        <div class="siteInfo">
+            <h2>KickDrum</h2>
+            <p>A fun musical website that is built using HTML, CSS and JavaScript, mainly describing the use of eventListeners in JavaScript.</p>
+       
+        </div>
+
+    
+    
+    </div> 
+
+    <hr>
+    <script>
+           var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-50px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+    </script>
+ 
+  
+ </body>     

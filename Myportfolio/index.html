@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monalisa Rout</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="navbar">
+    <a href="C:\Users\Monalisa\Documents\projects\Myportfolio\index.html">About</a> 
+    <a href="Work.html">Projects</a>
+    <a href="css/Resume.pdf" target="_main">Resume</a>
+    </div>
+     
+
+ <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Monalisa.</h1>
+    <h2>a webdeveloper.</h2> 
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img id="main-img" src="./images/final.png" alt="cloud.img">
+ </div>  
+ <div class="middle-container">
+    <div class="profile">
+      <img  id="monalisagif" src="./images/monalisa.gif" alt="profile-image" muted>
+      <h2>Hi.</h2>
+      <p>I am web designer/developer.</p>
+      <p>I love to create for web and mobile devices as well.</p> 
+    </div>
+    <hr>
+    <img class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <!-- <img class="static1" src="./images/gif1.jpg" alt="skill-image1"> -->
+        <img class="skill-image1 " src="./images/gif1.gif" alt="skill-image1">
+        <h3>Design and Development </h3>
+        <p >I design what you want and develop what you need.I am passionate about bringing ideas to life and crafting unique digital experiences.</p>
+      </div>
+      <div class="skill-row">
+        <!-- <img   class="static2 " src="./images/gif2.jpg" alt="skill-image2" > -->
+        <img   class="skill-image2 " src="./images/gif2.gif" alt="skill-image2" >
+        <h3>Responsive Websites</h3>
+        <p >My goals to focus on conveing the message that you want to convey. I am developer, so i know how to create a website to run across devices using the latest technologies available.</p>     
+    </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <img  class="static3 " src="./images/message.jpg" alt="contact-image" >
+      <img  class="contact " src="./images/message.gif" alt="contact-image" >
+      <h3>I am currently available for work.</h3>
+      <p class="contact-description">If you have a project that you want to get started, think you need my help with something .</p>
+      
+      <a class="btn" href="mailto:monalisarout1701@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+  
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/monalisa-rout-39748b239/"  target="_main">LinkedIn</a>
+    <a class="footer-link" href="#top">Website</a>
+    <a class="footer-link" href="mailto:monalisarout1701@gmail.com">Email</a>
+    <p>2023 © Monalisa Rout.</p>
+  </div>
+  
+
+ </div>
+ <script>
+  var prevScrollpos = window.pageYOffset;
+
+  var prevScrollpos=window.pageXOffset;
+  window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-50px";
+    }
+    prevScrollpos = currentScrollPos;
+  }
+
+  
+
+  
+  </script>
+</body>
+</html>
