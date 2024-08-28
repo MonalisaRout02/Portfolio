@@ -20,7 +20,7 @@ body{
     z-index: 2;
   }
   
-img{
+.WorkImg{
     border-radius: 20px;
 }
   /* Style the navbar links */
