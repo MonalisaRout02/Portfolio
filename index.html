@@ -17,17 +17,19 @@
 <body>
 
     <div id="navbar">
-    <a href="C:\Users\Monalisa\Documents\projects\Myportfolio\index.html">About</a> 
+    <a href="C:\Users\Monalisa\Documents\projects\Myportfolio\index.html">Home</a> 
     <a href="Work.html">Projects</a>
     <a href="css/Resume.pdf" target="_main">Resume</a>
     </div>
      
 
  <div class="top-container">
-    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <img class="top-cloud " src="images/cloud.png" alt="cloud-img">
     <h1>I'm Monalisa.</h1>
-    <h2>a webdeveloper.</h2> 
-    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <h2>a webdeveloper and UI/UX designer.</h2> 
+    <img class="bottom-cloud " src="images/cloud.png" alt="cloud-img">
+    
+    
     <img id="main-img" src="./images/final.png" alt="cloud.img">
  </div>  
  <div class="middle-container">
@@ -74,23 +76,7 @@
   
 
  </div>
- <script>
-  var prevScrollpos = window.pageYOffset;
-
-  var prevScrollpos=window.pageXOffset;
-  window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-      document.getElementById("navbar").style.top = "0";
-    } else {
-      document.getElementById("navbar").style.top = "-50px";
-    }
-    prevScrollpos = currentScrollPos;
-  }
-
-  
-
-  
-  </script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+ <script src="index.js"></script>
 </body>
 </html>
